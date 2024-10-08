@@ -14,10 +14,10 @@ settings:
   dayInHistogramNotOperational: ' 次无响应' # xx incident(s) recorded
 
 monitors:
-  - id: utdp # unique identifier
-    name: 安服应急响应中心工具分发平台
-    description: '平台' # default=empty
-    url: 'https://www.msangfor.com/api/hello' # URL to fetch
+  - id: ip-service # unique identifier
+    name: IP服务
+    description: '返回ipv4地址' # default=empty
+    url: 'http://162.14.124.73:52001' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
