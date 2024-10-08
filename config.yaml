@@ -1,6 +1,6 @@
 settings:
   title: '服务今天挂了吗？'
-  logo: 'Primary Sangfor Logo.png' # image in ./public/ folder
+  logo: 'logo.png' # image in ./public/ folder
   daysInHistogram: 180 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
