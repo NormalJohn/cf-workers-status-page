@@ -1,7 +1,7 @@
 settings:
   title: '服务今天挂了吗？'
   logo: 'logo.png' # image in ./public/ folder
-  daysInHistogram: 180 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '暂时还没挂'
@@ -21,4 +21,4 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
