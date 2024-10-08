@@ -15,7 +15,7 @@ settings:
 
 monitors:
   - id: ip-service # unique identifier
-    name: IP服务
+    name: IP查询服务
     description: '返回ipv4地址' # default=empty
     url: 'http://162.14.124.73:52001' # URL to fetch
     method: GET # default=GET
